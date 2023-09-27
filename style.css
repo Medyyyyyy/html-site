@@ -1,0 +1,130 @@
+#first_section h1{
+    font-family: 'Dancing Script', cursive;
+}
+
+p {
+    font-family: 'Source Serif 4', serif;
+    display: flex;
+    justify-content: center;
+    width:600px;
+}
+
+.backgroundsection {
+    background: linear-gradient(300deg, #F2BED1, #F8E8EE, #F9F5F6);
+    background-size: 200% 200%;
+    animation: gradient-animation 10s ease infinite;
+  }
+  
+  @keyframes gradient-animation {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 90% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+  }
+
+  h2{
+    font-family: 'Source Serif 4', serif;
+    color: #FBA1B7;
+    display: flex;
+    justify-content: center;
+  }
+
+  h3{
+    font-family: 'Source Serif 4', serif;
+    color: #FFD1DA;
+    font-size: 20px;
+  }
+
+
+  .summary{
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+   
+  }
+
+.ikona{
+    width:40px;
+    height: 40px;
+    margin: 20px;
+}
+.row{
+    display: flex;
+    justify-content: center;
+    margin-left: 100px;
+    margin-bottom: 50px;
+}
+.dodatak{
+    display: flex;
+    justify-content: center;
+   margin-top: 30px;
+   padding-bottom: 5px;
+}
+.summary_novi{
+    display: flex;
+    justify-content: center;
+  }
+  
+  .main-container{
+    display:flex;
+    justify-content: center;
+  }
+
+  .grid-container{
+    border:none;
+    display:grid;
+    width: 700px;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 50px 2fr 50px auto;
+    gap:30px
+    
+  }
+  .first{
+    border:none;
+    grid-column: span 2;
+    display: flex;
+    justify-content: center;
+  }
+  
+   .card{
+    border:none;
+    display: flex;
+   }
+
+   .grid-container-first{
+    margin-bottom: 100px;
+    border:none;
+    display:grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto;
+    gap:30px
+
+   }
+
+   .car-first{
+    width:600px;
+   }
+   
+   .slika{
+    height:600px;
+    width:350px;
+   }
+   
+#contact_me{
+  margin-top: 90px;
+}
+#footer{
+  margin-top: 90px;
+}
+.poseban{
+padding-bottom: 30px;
+}
+
+#projects{
+  margin-top:90px;
+}
